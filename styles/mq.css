@@ -1,0 +1,63 @@
+@media (min-width: 1440px) {
+    
+    .container {
+        width: 1110px;
+        height: 446px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .block-one {
+        background: linear-gradient(rgba(134, 31, 199, 0.5), rgba(134, 31, 199, 0.5)), url(../img/image-desktop.jpg);
+        background-size: cover;
+        height: 446px;
+        width: 1400px;
+    }
+
+    .block-two {
+        text-align: left;
+        padding: 78px 122px 54px 72px;
+    }
+
+    .overviews {
+        display: flex;
+    }
+
+    h1 {
+        font-size: 34px;
+        padding-bottom: 33px;
+    }
+
+    h1 > strong {
+        font-size: 34px;
+    }
+
+    .description {
+        line-height: 25px;
+        padding-bottom: 50px;
+    }
+
+    .overviews span {
+        font-size: 1.3em;
+    }
+
+    .overviews p {
+        font-size: 0.6em;
+        letter-spacing: 1.5px;
+    }
+
+    .comp {
+        padding-bottom: 0px;
+    }
+
+    .temp {
+        padding-left: 65px;
+        padding-bottom: 0px;
+    }
+
+    .querie {
+        padding-left: 65px;
+        padding-bottom: 0px;
+    }
+
+}
